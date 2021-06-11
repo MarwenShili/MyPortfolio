@@ -1,0 +1,160 @@
+img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    margin: 2px;
+    margin-top:-10px;
+}
+h1{
+    position: relative;
+    color:white;
+}
+.content{
+
+    display: flex;
+    right:150px !important;
+    top: 0px !important;
+  margin-left: 38%!important;
+  }
+    /*card2*/
+  
+  .translate{
+    font-size: 12px;
+    padding-left: 1em;
+    padding-top: 0.5em;
+  
+  }
+  
+  .photoprofile{
+    border-radius:180px !important;
+    padding:0.2em!important;
+    height:300px !important;
+    width:300px !important ;
+    margin:0 !important;
+    position:relative;
+  
+  }
+  .rounded-corners-gradient-borders{
+    width: 300px;
+    height: 300px;
+    border: double 2px transparent;
+    border-radius: 180px;
+    background-image: linear-gradient(white, white), radial-gradient(circle at top right, hsl(0, 0%, 2%), #000000 ,rgb(0, 0, 0));
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    position: absolute;
+    }
+
+
+
+
+
+
+   
+ 
+  /*header profile*/
+  .card .card-header {
+      background-color: transparent;
+      border-bottom: none;
+      padding: 25px;
+  }
+  /* mot profile */
+  .card .card-header h5 {
+      margin-bottom: 0;
+      color: #222;
+      font-size: 14px;
+      font-weight: 600;
+      display: inline-block;
+      margin-right: 10px;
+      line-height: 1.4;
+  }
+  
+  .card .card-header+.card-block, .card .card-header+.card-block-big {
+      padding-top: 0;
+  }
+  /*centre des ligne*/
+  .user-card .card-block {
+      text-align: center;
+  }
+  /*padding*/
+  .card .card-block {
+      padding: 25px;
+  }
+  /*image de profile */
+  .user-card .card-block .user-image {
+      position: relative;
+      margin: 0 auto;
+      display: inline-block;
+      padding: 5px;
+      width: 110px;
+      height: 110px;
+  }
+  .user-card .card-block .user-image img {
+      z-index: 20;
+      position: absolute;
+      top: 5px;
+      left: 5px;
+      width: 100px;
+      height: 100px;
+  }
+  
+  .img-radius {
+      border-radius: 50%;
+  }
+  
+ 
+  
+  
+  .f-w-600 {
+    font-weight: 900;
+
+}
+ 
+  .text-muted {
+      color: #919aa3!important;
+  }
+  
+  .user-card .card-block .activity-leval li.active {
+      background-color: #2ed8b6;
+  }
+  
+  .user-card .card-block .activity-leval li {
+      display: inline-block;
+      width: 15%;
+      height: 4px;
+      margin: 0 3px;
+      background-color: #ccc;
+  }
+  
+  .user-card .card-block .counter-block {
+      color: #fff;
+  }
+  
+  .bg-c-blue {
+      background: linear-gradient(45deg,#4099ff,#73b4ff);
+      border-radius: 20px;
+
+  }
+  
+  .bg-c-green {
+      background: linear-gradient(45deg,#2ed8b6,#59e0c5);
+  }
+  
+  
+  
+  
+  
+  .p-20 {
+      padding: 20px;
+  }
+  
+  .icon{
+      left: -3px;
+  }
+  
+  
+
+  
+  
+
+  

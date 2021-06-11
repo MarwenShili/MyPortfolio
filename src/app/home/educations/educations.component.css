@@ -1,0 +1,37 @@
+img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    margin: 2px;
+    margin-top:-2px;
+}
+h4{
+    color:black;
+    font-size:2rem;
+    text-align:end end  ;
+    font-family: 'Acme', sans-serif;
+    position:relative;
+    bottom: -70px;
+  }
+  h6{
+    bottom: -75px;
+    font-size:1rem;
+    font-family: 'Acme', sans-serif;
+    position:relative;
+    color:black;
+  }
+  .bac{
+      text-align:center;
+      bottom: -350px;
+      right:-300px
+  }
+  .fac{
+      top: 110px;
+    text-align:center;
+
+  }
+  .dev{
+    text-align:center;
+    right:300px;
+    top:100px;
+  }

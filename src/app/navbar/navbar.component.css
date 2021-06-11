@@ -1,8 +1,11 @@
 .mat-toolbar {
 background-color:black;
+;
 height:80px;
-margin:5px;
-border-radius: 5px;
+border-radius: 3px;
+margin: 2px;
+
+
 }
 .aa {
     margin-left: 60px;
@@ -28,7 +31,7 @@ border-radius: 5px;
   }
   
   a:hover {
-    background-color: rgb(0, 217, 255);
+    background-color: rgb(255, 0, 128);
   }
   .icons{
     margin-left:400px !important;
