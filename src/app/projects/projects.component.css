@@ -3,29 +3,19 @@
   padding:0;
   box-sizing: border-box;
 }
-.img{
-  margin-top: -10px;
-  margin-left: 3px;
-  width: 100% !important;
-  height: 100% !important;
-  background-repeat: no-repeat !important;
-background-attachment: fixed !important;
-position:fixed;
-}
+
 .wrapper{
-  width:100%;
+  left: 90px;
+  top: 150px;
+  width:98%;
   background-repeat: no-repeat !important;
-  height:100%;
   min-height: 100vh;
   position:relative;
   display: flex;
   justify-content: center;
   align-items: center;
   background-size: cover; 
-  margin-bottom:10px !important;
-  background-image: url("https://www.wallpapertip.com/wmimgs/83-838362_web-developer.jpg");
   border: double 4px transparent;
-  top: -10px;
 }
 .wrapper .box{
   position:relative;

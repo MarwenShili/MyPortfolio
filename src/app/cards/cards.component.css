@@ -1,73 +1,62 @@
-*{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
+
+ a {
+  padding: 10px;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  font-size: 0.7em;
+  text-transform: uppercase;
+  margin: 5px 0;
+  display: inline-block;
+  opacity: 0.65;
+  width: 70%;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 5px;
+  bottom:-100px;
+  position: relative;
+  left: 191px;
+
 }
-.img{
-    margin-top: -10px;
-    margin-left: 3px;
-    width: 100% !important;
-    height: 100% !important;
-    background-repeat: no-repeat !important;
-  background-attachment: fixed !important;
-  position:fixed;
-}
-.wrapper{
-    width:100%;
-    background-repeat: no-repeat !important;
-    height:100%;
-    min-height: 100vh;
-    position:relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-size: cover; 
-    margin-bottom:10px !important;
-    background-image: url("https://www.wallpapertip.com/wmimgs/83-838362_web-developer.jpg");
-    border: double 4px transparent;
-    top: -20px;
-}
-.wrapper .box{
-    position:relative;
-    width:280px;
-    height:400px;
-    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
-    border-radius:15px;
-    margin:10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-top:1px solid rgba(255,255,255,0.5);
-    border-left:1px solid rgba(255,255,255,0.5);
-    backdrop-filter: blur(5px);
-    transform-style: preserve-3d;
-    transform: perspective(800px) ;
-}
-.wrapper .box1{
-    position: relative;
-    width:280px;
-    height:400px;
-    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
-    border-radius:15px;
-    margin:10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-top:1px solid rgba(255,255,255,0.5);
-    border-left:1px solid rgba(255,255,255,0.5);
-    backdrop-filter: blur(5px);
-    transform-style: preserve-3d;
-    transform: perspective(800px) ;
-}
-h2{
-    color:#f5f5f5;
-    font-size:2.5rem;
-    text-align: center;
-    font-family: 'Acme', sans-serif;
+a:hover {
+  opacity: 1;
+  background-color: #2980b9;
+
 }
 
-p{
-    color:#ccc;
-    margin:20px 10px;
-    font-family: 'Fira Code', monospace;
+h2{
+    color: white;
 }
+img{
+  position:relative;
+  bottom: -100px;
+  display: block;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.image{
+  width: 25%;
+ bottom:80px;
+ right: 58%;
+  position:absolute;
+}
+.imagedisc{
+width: 8%;
+height: auto;
+position:absolute;
+bottom:64%;
+right: 45%;
+
+}
+p{
+  color: black;
+  position: absolute;
+  bottom:70%;
+  right: 48%;
+  text-size-adjust: 15px;
+  
+
+}
+
+

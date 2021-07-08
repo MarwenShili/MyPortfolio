@@ -1,12 +1,4 @@
-.mat-toolbar {
-background-color:black;
-;
-height:80px;
-border-radius: 3px;
-margin: 2px;
 
-
-}
 .aa {
     margin-left: 60px;
     padding: 0;
@@ -18,6 +10,7 @@ margin: 2px;
     float: right;
 
   }
+ 
   
   a {
 
@@ -31,7 +24,7 @@ margin: 2px;
   }
   
   a:hover {
-    background-color: rgb(255, 0, 128);
+    background-color:transparent;
   }
   .icons{
     margin-left:400px !important;
@@ -41,31 +34,10 @@ margin: 2px;
   width:70px !important;
   padding-right:5px;
 }
-/*------- card profile--------*/
-.content{
-  display: flex;
-  right:0px !important;
-  top: 0px !important;}
-  /*card2*/
 
-.translate{
-  font-size: 12px;
-  padding-left: 1em;
-  padding-top: 0.5em;
 
+.container{
+  size: 80%;
 }
 
-.photoprofile{
-  border-radius:80px !important;
-  padding:0.2em!important;
 
-}
-.rounded-corners-gradient-borders {
-  width: 60px;
-  height: 60px;
-  border: double 2px transparent;
-  border-radius: 80px;
-  background-image: linear-gradient(white, white), radial-gradient(circle at top right, #531376, #AD0C79 ,rgb(211, 86, 144));
-  background-origin: border-box;
-  background-clip: content-box, border-box;
-  }
