@@ -27,6 +27,7 @@ a:hover {
 h2{
     color: white;
 }
+
 img{
   position:relative;
   bottom: -100px;
@@ -37,7 +38,7 @@ img{
 }
 .image{
   width: 25%;
- bottom:80px;
+ bottom:125px;
  right: 58%;
   position:absolute;
 }
@@ -45,18 +46,23 @@ img{
 width: 8%;
 height: auto;
 position:absolute;
-bottom:64%;
+bottom:68%;
 right: 45%;
 
 }
-p{
+h2{
   color: black;
   position: absolute;
-  bottom:70%;
-  right: 48%;
-  text-size-adjust: 15px;
-  
+  bottom:73%;
+  right: 47%;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+    
 
 }
-
-
+.i-card{
+  position:absolute;
+  width: 90%;
+  height: 40%;
+  left: 46%;
+  bottom: 28%;
+}

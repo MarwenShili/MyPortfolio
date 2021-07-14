@@ -5,13 +5,10 @@
     overflow: hidden;
     background-color:black;
   }
-  
   span{
     float: right;
 
   }
- 
-  
   a {
 
     display: block;
@@ -22,7 +19,6 @@
     margin:5px;
     border-radius: 10px;
   }
-  
   a:hover {
     background-color:transparent;
   }

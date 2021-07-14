@@ -1,0 +1,10 @@
+.example-card{
+  width: 40% !important;
+
+}
+h2{
+  font-size: 15px;
+}
+.mat-card-header{
+margin-left: -18px;
+}

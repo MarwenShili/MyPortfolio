@@ -11,6 +11,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SkillsComponent } from './skills/skills.component';
 import { CardsComponent } from './cards/cards.component';
 import { ProfileComponent } from './home/profile/profile.component';
+import { ICardComponent } from './cards/i-card/i-card.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { ProfileComponent } from './home/profile/profile.component';
     SkillsComponent,
     CardsComponent,
     ProfileComponent,
+    ICardComponent,
   ],
   imports: [
     BrowserModule,
